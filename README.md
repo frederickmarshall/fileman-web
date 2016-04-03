@@ -26,11 +26,11 @@ I also want to create file BACH WERKE VERZEICHNIS (1001) so my experiments with 
 
 This software module consists of:
 
-1. routines
+Routines
 
 -  a. DDWC001 [commit on 2013-12-18]
 
-2. documentation files
+Documentation files
 
 -  a. INSTALL.md [commit on 2013-12-18]
 
@@ -38,7 +38,7 @@ This software module consists of:
 
 -  c. doc_how_to.txt [commit on 2014-02-05]
 
-3. cascading style sheets
+Cascading style sheets
 
 -  a. app.css [commit on 2013-12-18]
 
@@ -46,23 +46,25 @@ This software module consists of:
 
 -  c. normalize.css [commit on 2013-12-18]
 
-4. hypertext files
+Hypertext files
 
 -  a. fileman-demo.html [commits on 2013-12-18,25]
 
 -  b. typeahead.html [commit on 2013-12-25]
 
-5. javascript files
+Javascript files
 
 -  a. DDWC.js [commits on 2013-12-18,25]
 
 -  b. DDWC-test-mocha.js [commits on 2013-12-19,20,25]
 
-6. global-output files
+Global-output files
 
 -  a. DDWC001.zwr [commit on 2013-12-18]
 
-7. records in file WEB SERVICE URL HANDLER (17.6001), a Fileman-compatible global data structure stored in ^%W(17.6001) and created as part of the Mumps Advanced Shell to support m-web-server. These records expose Vista web services. They come in several groups. First are the Fileman-related services created as part of fileman-web:
+Records in file WEB SERVICE URL HANDLER (17.6001), a Fileman-compatible global data structure stored in ^%W(17.6001) and created as part of the Mumps Advanced Shell to support m-web-server. These records expose Vista web services. They come in several groups.
+
+First are the Fileman-related services created as part of fileman-web:
 
 -  a. GET fileman/dd/{fields} calls DD^DDWC001 [commit on 2013-12-18, described in DDWC001.zwr]
 
